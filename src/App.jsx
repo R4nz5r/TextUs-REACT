@@ -45,7 +45,7 @@ function App() {
         <Navbar title="TextUs" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Routes>
-          <Route  path="/" element={<TextForm showAlert={showAlert} heading="TextUs - Wod Counter , Character Counter , Remove extra spaces " mode={mode} />} />
+          <Route  path="/TextUs-REACT" element={<TextForm showAlert={showAlert} heading="TextUs - Wod Counter , Character Counter , Remove extra spaces " mode={mode} />} />
           <Route exact path="/about" element={<About mode={mode}/>} />
         </Routes>
       </Router>
